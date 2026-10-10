@@ -1,0 +1,17 @@
+# AgentHarness development artifacts
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+# Temporary local harness state (final task/evidence records remain tracked)
+.agentharness/logs/
+.agentharness/tmp/
+.agentharness/locks/
+.agentharness/cache/
+
+.DS_Store
+Thumbs.db
