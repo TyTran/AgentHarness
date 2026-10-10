@@ -9,14 +9,14 @@ This repository contains the initial brief, policies and scoped implementation p
 1. Open [Codex](https://chatgpt.com/codex) and connect/select the GitHub repository `TyTran/AgentHarness`.
 2. If requested, grant Codex access to this repository; do not grant access to the separate private application merely to build this project.
 3. Create a cloud environment for AgentHarness using the `main` branch. At bootstrap, the repo has only docs; no install or test script should be assumed to exist.
-4. Start with the first executable implementation issue (linked from [Issues](https://github.com/TyTran/AgentHarness/issues)), one bounded task at a time. Paste or reference its issue URL.
+4. Start with [issue #2 — CLI foundation, project init and tests](https://github.com/TyTran/AgentHarness/issues/2), one bounded task at a time. Paste or reference that exact issue URL.
 5. In each task, tell Codex to read `AGENTS.md`, `docs/MVP.md` and `docs/ARCHITECTURE.md` first. Request a task-scoped change, tests and reviewable PR/diff; review before merge.
 
 ## Suggested first cloud task
 
-> Implement the first executable AgentHarness foundation task from the linked GitHub issue. Read AGENTS.md, docs/MVP.md and docs/ARCHITECTURE.md before coding. Keep the implementation small, local-first and fully offline-capable. Use the isolated workspace provided by Codex Cloud; do not create nested worktrees unless strictly needed. Do not touch the separate private reference repository. Add deterministic tests, run them, report the exact results and submit a reviewable change. Do not auto-merge.
+> Implement [AgentHarness issue #2](https://github.com/TyTran/AgentHarness/issues/2): the CLI foundation, safe project init and deterministic tests. Read AGENTS.md, docs/MVP.md and docs/ARCHITECTURE.md before coding. Keep the implementation small, local-first and fully offline-capable. Use the isolated workspace provided by Codex Cloud; do not create nested worktrees unless strictly needed. Do not touch the separate private reference repository. Add deterministic tests, run them, report the exact results and submit a reviewable change. Do not auto-merge.
 
-Once the task issue exists, replace this generic task description with its issue link.
+When the issue #2 PR is reviewed and merged, follow the dependency order in the [v0.1 tracker](https://github.com/TyTran/AgentHarness/issues/1).
 
 ## Development and product separation
 
